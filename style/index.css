@@ -138,6 +138,7 @@ figure::before{
 .nav .reach li{
 	margin-right: 5vw;
 }
+
 .nav{
 	align-items: center;
 }
@@ -294,6 +295,27 @@ button, .main-text .hireh {
 	display: flex;
 	max-width: 35vw;
 }
+ .animated {
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
 
 form{
 	margin-top: 2vh;
@@ -396,6 +418,9 @@ footer{
 }
 .overlay{
 	height: 25vh;
+}
+nav ul{
+	font-size: smaller;
 }
 
 
