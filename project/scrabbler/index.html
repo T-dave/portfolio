@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Scrambler</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style type="text/css">
+			.unclick{
+				opacity : 0.2;
+			}
+			.loader{
+			border: 16px solid #f3f3f3;
+			/*light grey*/
+			border-top: 16px solid #3498db;
+			/*Blue*/
+			border-bottom: 16px solid #991122;
+			border-radius: 50%;
+			width: 70px;
+			height: 70px;
+			animation: spin 2s linear infinite;
+		}
+		@keyframes spin{
+			0%{transform: rotate(0deg);
+			}
+			100%{transform: rotate(360deg);}
+		}
+
+		</style>
+	</head>
+	<body>
+
+
+
+<header id="header" class="alt">
+				<div class="logo"><a href="index.html" style="text-decoration: none;">Created <span>by DAVID OMOTARA</span></a></div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>Word scrambler</h1>
+						<p>Enter your desired word <br />or scattered letters for scrambling.</p>
+					</header>
+					<input type="text" name="word" id="name" style="color: white;" value="" placeholder="Enter word" /><br>
+					<a href="#" class="button big " onclick="setTimeout(myFunction, 100);">Scramble</a><br><br>
+					<center><h4 class="loade"></h4></center>
+					<h3 style="color: white;" ></h3>
+
+
+				</div>
+			</section>
+
+	
+	<script type="text/javascript" src="assets/js/words.js"></script>	
+	<script type="text/javascript" src="assets/js/scrabbler.js"></script>
+	
+	</html>		
+	</body>		

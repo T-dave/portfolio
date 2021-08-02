@@ -1,0 +1,18 @@
+li{
+	list-style: none;
+
+}
+ul{
+	padding-left: 0;
+}
+.textt{
+
+	opacity: 1.0;
+}
+body{
+	text-align: center;
+	background: linear-gradient(to right, red, blue);
+	font : 'Raleway', sans-serif;
+	color: white;
+	font-family: cursive;	
+}
